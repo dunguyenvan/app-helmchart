@@ -5,7 +5,7 @@
 replicaCount: 4
 
 image:
-  repository: rockman88v/demo-app
+  repository: registry.fke.fptcloud.com/51fece1a-f372-412f-851d-58d4cb9959ce/demo-app
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "10"
